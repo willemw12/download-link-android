@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Generic strings -->
+    <string name="label_cancel">Cancel</string>
+    <string name="label_disabled">Disabled</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_yes">Yes</string>
+
+    <!-- App related strings -->
+    <string name="action_edit_and_download_title">Edit and download</string>
+    <string name="action_edit_and_download_title_short">Edit link</string>
+    <string name="action_paste_and_download_title">Paste and download</string>
+    <!--<string name="action_paste_and_download_title_format">Paste and download%1$s</string>-->
+    <string name="action_paste_and_download_title_short">Paste link</string>
+    <!-- HORIZONTAL_ELLIPSIS_CHAR = '\u2026' -->
+    <string name="action_share_clipboard_title">Share clipboard</string>
+    <string name="action_share_clipboard_title_short">Share clipboard</string>
+    <string name="app_name">Download Link</string>
+    <!--<string name="app_summary">A simple download app.</string>-->
+    <string name="dialog_edit_link_title">Download link</string>
+    <!--<string name="hint_root_folder"></string>-->
+    <string name="hint_link_text">http://example.com/file</string>
+    <string name="hint_root_folder">(top folder)</string>
+    <string name="intent_share_clipboard_title">Share%1$s with</string>
+    <string name="label_download">Download</string>
+    <string name="msg_continue_download">Continue download?</string>
+    <!--<string name="msg_downloading">Downloading to \'%1$s\' on public shared device storage</string>-->
+    <string name="msg_downloading">Downloading to \'%1$s\'</string>
+    <string name="msg_no_clipboard_text">No clipboard text</string>
+    <string name="msg_no_link_text">No link text</string>
+    <string name="msg_permission_denied">Permission denied</string>
+    <string name="msg_primary_shared_media">Primary shared media</string>
+    <string name="msg_unknown_doc_type">Storage type \'%1$s\' is not \'primary\'</string>
+    <string name="notif_wifi_lock_text">Tap to cancel WiFi Lock</string>
+    <string name="notif_wifi_lock_title">WiFi Lock is on</string>
+    <string name="pref_allow_over_metered_summary">Enable download over a metered connection.</string>
+    <string name="pref_allow_over_metered_title">Allow metered</string>
+    <string name="pref_allow_over_roaming_summary">Enable download over a roaming connection.</string>
+    <string name="pref_allow_over_roaming_title">Allow roaming</string>
+    <string name="pref_close_when_finished_title">Close app when finished</string>
+    <string name="pref_download_path_default">Download</string>
+    <!--<string name="pref_download_path_title">Download location on primary public shared storage</string>-->
+    <!--<string name="pref_download_path_title">Download location on shared storage</string>-->
+    <string name="pref_download_path_title">Download location</string>
+    <string name="pref_features_summary">- Downloads files to your device.\n\n- Lets you to add a link via the share menu, clipboard or keyboard.\n\n- Files will be queued for download until connectivity is available.</string>
+    <string name="pref_features_title">Features</string>
+    <!--<string name="pref_hide_path_edit_text_title">Hide download location edit dialog</string>-->
+    <string name="pref_link_summary">https://github.com/willemw12/download-link-android</string>
+    <string name="pref_link_title">Link</string>
+    <string name="pref_requires_charging_summary">Download only when the device is plugged in.</string>
+    <string name="pref_requires_charging_title">Requires charging</string>
+    <string name="pref_requires_device_idle_summary">Download only when the device is in idle mode.</string>
+    <string name="pref_requires_device_idle_title">Requires device idle</string>
+    <string name="pref_category_download_title">Download</string>
+    <string name="pref_category_ui_title">User Interface</string>
+    <string name="pref_show_full_download_path_title">Show full download path</string>
+    <!--<string name="pref_show_progress_notification_summary">Display download notification during download.</string>-->
+    <string name="pref_show_notifications_title">Show download notifications</string>
+    <string name="pref_show_settings_summary">Display main screen settings before downloading.</string>
+    <string name="pref_show_settings_title">Show settings</string>
+    <string name="pref_wifi_lock_summary">Keep WiFi connection longer alive. Consumes more battery power.</string>
+    <string name="pref_wifi_lock_title">WiFi Lock</string>
+    <string name="pref_usage_summary">Share or copy an HTTP/HTTPS link from any app. Or enter the link in this app.\n\nRun the \"Downloads\" system app to view and manage downloads.</string>
+    <string name="pref_usage_title">Usage</string>
+    <string name="pref_version_title">Version</string>
+    <string name="screen_about_title">About</string>
+    <!--<string name="screen_main_title">Settings</string>-->
+    <string name="screen_main_title">Download Link</string>
+    <string name="screen_settings_title">Settings</string>
+
+</resources>
+

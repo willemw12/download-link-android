@@ -1,0 +1,56 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--android:icon="@drawable/ic_create_black_24dp"-->
+    <!--android:shortcutLongLabel="@string/action_edit_and_download_title"-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_create"
+        android:shortcutDisabledMessage="@string/label_disabled"
+        android:shortcutId="action_edit_and_download_id"
+        android:shortcutShortLabel="@string/action_edit_and_download_title_short">
+        <!-- Not android:targetClass=".activity.MainActivity" -->
+        <!--android:action="android.intent.action.MAIN"-->
+        <intent
+            android:action="willemw12.intent.action.APP_SHORTCUT"
+            android:data="action_edit_and_download_id"
+            android:targetClass="willemw12.downloadlink.activity.MainActivity"
+            android:targetPackage="willemw12.downloadlink" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!--android:icon="@drawable/ic_content_paste_black_24dp"-->
+    <!--android:shortcutLongLabel="@string/action_paste_and_download_title"-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_content_paste"
+        android:shortcutDisabledMessage="@string/label_disabled"
+        android:shortcutId="action_paste_and_download_id"
+        android:shortcutShortLabel="@string/action_paste_and_download_title_short">
+        <!-- Not android:targetClass=".activity.MainActivity" -->
+        <intent
+            android:action="willemw12.intent.action.APP_SHORTCUT"
+            android:data="action_paste_and_download_id"
+            android:targetClass="willemw12.downloadlink.activity.MainActivity"
+            android:targetPackage="willemw12.downloadlink" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!--android:icon="@drawable/ic_share_black_24dp"-->
+    <!--android:shortcutLongLabel="@string/action_share_clipboard_title"-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_share"
+        android:shortcutDisabledMessage="@string/label_disabled"
+        android:shortcutId="action_share_clipboard_id"
+        android:shortcutShortLabel="@string/action_share_clipboard_title_short">
+        <!-- Not android:targetClass=".activity.MainActivity" -->
+        <intent
+            android:action="willemw12.intent.action.APP_SHORTCUT"
+            android:data="action_share_clipboard_id"
+            android:targetClass="willemw12.downloadlink.activity.MainActivity"
+            android:targetPackage="willemw12.downloadlink" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>
+

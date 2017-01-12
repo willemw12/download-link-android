@@ -1,0 +1,63 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_category_ui_title">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_close_when_finished_key"
+            android:title="@string/pref_close_when_finished_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_show_settings_key"
+            android:summary="@string/pref_show_settings_summary"
+            android:title="@string/pref_show_settings_title" />
+        <!--android:summary="@string/pref_close_when_finished_summary"-->
+        <!--android:summary="@string/pref_show_progress_notification_summary"-->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_show_notifications_key"
+            android:title="@string/pref_show_notifications_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_show_full_download_path_key"
+            android:title="@string/pref_show_full_download_path_title" />
+        <!--
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_hide_path_edit_text_key"
+            android:title="@string/pref_hide_path_edit_text_title" />
+        -->
+    </PreferenceCategory>
+
+    <!-- NOTE: No toolbar on nested preference screens
+    <PreferenceScreen android:title="@string/pref_category_advanced_title">
+    -->
+    <PreferenceCategory android:title="@string/pref_category_download_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_wifi_lock_key"
+            android:summary="@string/pref_wifi_lock_summary"
+            android:title="@string/pref_wifi_lock_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_allow_over_metered_key"
+            android:summary="@string/pref_allow_over_metered_summary"
+            android:title="@string/pref_allow_over_metered_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_allow_over_roaming_key"
+            android:summary="@string/pref_allow_over_roaming_summary"
+            android:title="@string/pref_allow_over_roaming_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_requires_charging_key"
+            android:summary="@string/pref_requires_charging_summary"
+            android:title="@string/pref_requires_charging_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_requires_device_idle_key"
+            android:summary="@string/pref_requires_device_idle_summary"
+            android:title="@string/pref_requires_device_idle_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

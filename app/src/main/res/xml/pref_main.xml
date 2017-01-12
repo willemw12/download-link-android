@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!--android:dependency="pref_show_full_download_path_key"-->
+    <willemw12.downloadlink.preference.FolderPathPreference
+        android:defaultValue="@string/pref_download_path_default"
+        android:hint="@string/hint_root_folder"
+        android:inputType="textNoSuggestions"
+        android:key="pref_download_path_key"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:title="@string/pref_download_path_title" />
+
+</PreferenceScreen>
+
