@@ -3,7 +3,9 @@ Download Link
 
 A simple Android download app.
 
-![Main Screen](https://github.com/willemw12/download-link-android/wiki/images/screenshot_main_screen.png) ![Edit Link](https://github.com/willemw12/download-link-android/wiki/images/screenshot_edit_link.png) ![Settings Screen](https://github.com/willemw12/download-link-android/wiki/images/screenshot_settings_screen.png)
+![logo](https://github.com/willemw12/download-link-android/blob/master/app/src/main/res/mipmap-xhdpi/ic_launcher.png "Launcher icon")
+
+![screenshot](https://github.com/willemw12/download-link-android/wiki/images/screenshot_main_screen.png "Main screen") ![screenshot](https://github.com/willemw12/download-link-android/wiki/images/screenshot_edit_link.png "Edit link") ![screenshot](https://github.com/willemw12/download-link-android/wiki/images/screenshot_settings_screen.png "Settings screen")
 
 Get the APK from the [release](https://github.com/willemw12/download-link-android/releases) page.
 
